@@ -1,0 +1,22 @@
+.content {
+    width: 20rem;
+    margin: 3rem;
+}
+
+img {
+    width: 10rem;
+    border: 2px dashed black;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.content-2 {
+    margin: 3rem;
+    max-width: 40rem;
+}
+
+a {
+    text-decoration: none;
+}

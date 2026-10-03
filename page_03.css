@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content {
+    margin: 3rem;
+    max-width: 40rem;
+}
+
+.div-fullwidth {
+    display:flex;
+    justify-content: space-between;
+}
+
+.columns {
+    display: flex;
+}
+
+.div-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-flex-child {
+    background: beige;
+    padding: 1rem;
+    width: 14rem;
+    margin: 0.2rem;
+}
+
+.div-fullwidth {
+    background: beige;
+    padding: 1rem;
+}
+
+.column {
+    background: beige;
+    margin: .2rem;
+    padding: 1rem;
+    width: 20rem;
+}
+
+p {
+    margin: 0rem auto;
+}
